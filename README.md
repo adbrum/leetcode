@@ -14,19 +14,19 @@ Each pattern includes:
 
 | #  | Pattern | Typical Use Case | Example Problem |
 |----|---------|------------------|-----------------|
-| 1  | [Two Pointers](patterns/#1-two-pointers) | Sorted arrays, palindromes, target sums | Two Sum II |
-| 2  | [Sliding Window](patterns/#2-sliding-window) | Subarrays/substrings with constraints | Longest Substring Without Repeating Characters |
-| 3  | [Fast & Slow Pointers](patterns/#3-fast--slow-pointers-floyds-cycle) | Detect cycles, find middle node | Linked List Cycle II |
-| 4  | [Binary Search](patterns/#4-binary-search) | Sorted arrays, monotonic conditions | Find First and Last Position of Element |
-| 5  | [Backtracking / DFS](patterns/#5-backtracking--dfs) | Subsets, permutations, combinations | Subsets |
-| 6  | [Breadth-First Search (BFS)](patterns/#6-bfs-breadth-first-search) | Level-order traversal, shortest paths | Binary Tree Level Order Traversal |
-| 7  | [Dynamic Programming (DP)](patterns/#7-dynamic-programming) | Optimization with overlapping subproblems | House Robber |
-| 8  | [Hash Tables](patterns/#8-hash-table-dictionaries--maps) | Fast lookup, complement check | Two Sum |
-| 9  | [Monotonic Stack](patterns/#9-stack--monotonic-stack) | Next greater/smaller elements | Daily Temperatures |
-| 10 | [Heap / Priority Queue](patterns/#10-heap--priority-queue) | Top-k, merging sorted lists | Kth Largest Element |
-| 11 | [Union-Find (DSU)](patterns/#11-union-find--disjoint-set-dsu) | Connected components, cycle detection | Connected Components in Graph |
-| 12 | [Trie (Prefix Tree)](patterns/#12-prefix-tree) | Prefix search, autocomplete | Implement Trie |
-| 13 | [Bit Manipulation](patterns/#13-bit-manipulation-operations-bitwise) | Unique elements, subset states | Single Number |
+| 1  | [Two Pointers](patterns/#1-two-pointers.md) | Sorted arrays, palindromes, target sums | Two Sum II |
+| 2  | [Sliding Window](patterns/#2-sliding-window.md) | Subarrays/substrings with constraints | Longest Substring Without Repeating Characters |
+| 3  | [Fast & Slow Pointers](patterns/#3-fast--slow-pointers-floyds-cycle.md) | Detect cycles, find middle node | Linked List Cycle II |
+| 4  | [Binary Search](patterns/#4-binary-search.md) | Sorted arrays, monotonic conditions | Find First and Last Position of Element |
+| 5  | [Backtracking / DFS](patterns/#5-backtracking--dfs.md) | Subsets, permutations, combinations | Subsets |
+| 6  | [Breadth-First Search (BFS)](patterns/#6-bfs-breadth-first-search.md) | Level-order traversal, shortest paths | Binary Tree Level Order Traversal |
+| 7  | [Dynamic Programming (DP)](patterns/#7-dynamic-programming.md) | Optimization with overlapping subproblems | House Robber |
+| 8  | [Hash Tables](patterns/#8-hash-table-dictionaries--maps.md) | Fast lookup, complement check | Two Sum |
+| 9  | [Monotonic Stack](patterns/#9-stack--monotonic-stack.md) | Next greater/smaller elements | Daily Temperatures |
+| 10 | [Heap / Priority Queue](patterns/#10-heap--priority-queue.md) | Top-k, merging sorted lists | Kth Largest Element |
+| 11 | [Union-Find (DSU)](patterns/#11-union-find--disjoint-set-dsu.md) | Connected components, cycle detection | Connected Components in Graph |
+| 12 | [Trie (Prefix Tree)](patterns/#12-prefix-tree.md) | Prefix search, autocomplete | Implement Trie |
+| 13 | [Bit Manipulation](patterns/#13-bit-manipulation-operations-bitwise.md) | Unique elements, subset states | Single Number |
 
 ---
 

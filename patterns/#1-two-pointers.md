@@ -28,8 +28,8 @@ def two_sum_sorted(numbers, target):
 
 ## Complexidade:
 
-* **Tempo:** $O(n)$
-* **Espaço:** $O(1)$
+* **Tempo:** `O(n)`
+* **Espaço:** `O(1)`
 
 ---
 

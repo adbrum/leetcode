@@ -32,8 +32,8 @@ def length_of_longest_substring(s: str) -> int:
 
 ## Complexidade:
 
-* **Tempo:** $O(n)$ (Cada caractere é processado uma vez.)
-* **Espaço:** $O(\min(n, \text{size\_of\_charset}))$ (Armazena no máximo o número de caracteres únicos na string ou o tamanho do alfabeto.)
+* **Tempo:** `O(n)` (Cada caractere é processado uma vez.)
+* **Espaço:** `O(\min(n, \text{size\_of\_charset}))` (Armazena no máximo o número de caracteres únicos na string ou o tamanho do alfabeto.)
 
 ---
 

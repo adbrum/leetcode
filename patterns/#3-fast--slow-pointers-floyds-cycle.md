@@ -45,8 +45,8 @@ def detectCycle(head):
 
 ## Complexidade:
 
-* **Tempo:** $O(n)$
-* **Espaço:** $O(1)$
+* **Tempo:** `O(n)`
+* **Espaço:** `O(1)`
 
 ---
 

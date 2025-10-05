@@ -48,7 +48,7 @@ def two_sum_sorted(numbers, target):
         else:
             r -= 1
     return [-1, -1]
-
+```
 - **Time Complexity:** `O(n)`  
 - **Space Complexity:** `O(1)`
 

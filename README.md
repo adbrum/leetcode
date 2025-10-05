@@ -20,8 +20,8 @@ Each pattern includes:
 | 4  | [Binary Search](#4-binary-search) | Sorted arrays, monotonic conditions | Find First and Last Position of Element |
 | 5  | [Backtracking / DFS](#5-backtracking--dfs) | Subsets, permutations, combinations | Subsets |
 | 6  | [Breadth-First Search (BFS)](#6-bfs-breadth-first-search) | Level-order traversal, shortest paths | Binary Tree Level Order Traversal |
-| 7  | [Dynamic Programming (DP)](#7-dynamic-programming-programação-dinâmica) | Optimization with overlapping subproblems | House Robber |
-| 8  | [Hash Tables](#8-hash-table-dicionários--mapas) | Fast lookup, complement check | Two Sum |
+| 7  | [Dynamic Programming (DP)](#7-dynamic-programming) | Optimization with overlapping subproblems | House Robber |
+| 8  | [Hash Tables](#8-hash-table-dictionaries--maps) | Fast lookup, complement check | Two Sum |
 | 9  | [Monotonic Stack](#9-stack--monotonic-stack) | Next greater/smaller elements | Daily Temperatures |
 | 10 | [Heap / Priority Queue](#10-heap--priority-queue) | Top-k, merging sorted lists | Kth Largest Element |
 | 11 | [Union-Find (DSU)](#11-union-find--disjoint-set-dsu) | Connected components, cycle detection | Connected Components in Graph |

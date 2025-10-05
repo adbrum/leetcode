@@ -28,6 +28,14 @@ Each pattern includes:
 | 12 | [Trie (Prefix Tree)](patterns/%2312-prefix-tree.md) | Prefix search, autocomplete | Implement Trie |
 | 13 | [Bit Manipulation](patterns/%2313-bit-manipulation-operations-bitwise.md) | Unique elements, subset states | Single Number |
 
+## Guide
+
+[Leetcode Pattern Recognition Guide](guides/Leetcode_Pattern_Recognition_Guide_PT.md)
+
+[Leetcode Pattern Recognition Guide PDF](guides/Leetcode_Pattern_Recognition_Guide_PT.pdf)
+
+---
+
 ## Big O Notation
 
 ![Big O Graph](images/big-o.webp)

@@ -28,6 +28,10 @@ Each pattern includes:
 | 12 | [Trie (Prefix Tree)](patterns/%2312-prefix-tree.md) | Prefix search, autocomplete | Implement Trie |
 | 13 | [Bit Manipulation](patterns/%2313-bit-manipulation-operations-bitwise.md) | Unique elements, subset states | Single Number |
 
+## Big O Notation
+
+![Big O Graph](images/big-o.webp)
+
 ---
 
 ## 🚀 Example: Two Pointers

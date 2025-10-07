@@ -5,7 +5,7 @@
 * Problemas que apresentam **subestrutura ótima** (a solução ótima é construída a partir de soluções ótimas de subproblemas) e **subproblemas sobrepostos** (os mesmos subproblemas são resolvidos repetidamente).
 * Exemplos: Otimização sequencial (como este), subsequências, caminhos mínimos/máximos, somas alvo, problemas de mochila.
 
-## Problema de Exemplo: House Robber
+## Problema de Exemplo: [House Robber](https://leetcode.com/problems/house-robber/)
 
 O objetivo é maximizar a quantia roubada sem roubar casas adjacentes.
 
@@ -45,3 +45,15 @@ def rob(nums):
     * **Não Roubar:** O resultado é `curr` (o máximo até a casa anterior).
     * **Roubar:** O resultado é `prev + num` (o máximo até a casa `i-2` mais o valor da casa atual, porque não podemos roubar a casa `i-1`).
 4.  O novo máximo (`max(curr, prev + num)`) torna-se o **novo `curr`**, e o antigo `curr` é promovido a **novo `prev`**.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Fácil | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| [Coin Change](https://leetcode.com/problems/coin-change/) | Média | [Link](https://leetcode.com/problems/coin-change/) |
+| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Média | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) |
+| [Word Break](https://leetcode.com/problems/word-break/) | Média | [Link](https://leetcode.com/problems/word-break/) |
+| [Unique Paths](https://leetcode.com/problems/unique-paths/) | Média | [Link](https://leetcode.com/problems/unique-paths/) |

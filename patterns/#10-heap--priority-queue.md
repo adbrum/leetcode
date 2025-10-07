@@ -7,7 +7,7 @@
 * Encontrar o **k-ésimo** elemento mais pequeno/maior num conjunto.
 * Simulação de eventos em ordem de prioridade.
 
-## Problema de Exemplo: Kth Largest Element in an Array
+## Problema de Exemplo: [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 * **Entrada:** `nums = [3,2,1,5,6,4]`, `k = 2`
 * **Saída:** `5` (O 2.º maior elemento é 5)
@@ -50,3 +50,15 @@ def findKthLargest(nums, k):
 4.  Ao processar um novo elemento (`x`):
     * Se `x` for **maior** que a raiz do *heap* (`heap[0]`), ele deve pertencer ao conjunto dos `k` maiores.
     * Usa-se `heapq.heapreplace(heap, x)` para remover a raiz (o antigo k-ésimo maior) e inserir `x` em `O(\log k)`, mantendo o *heap* de tamanho `k`.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Difícil | [Link](https://leetcode.com/problems/merge-k-sorted-lists/) |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Média | [Link](https://leetcode.com/problems/top-k-frequent-elements/) |
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Difícil | [Link](https://leetcode.com/problems/find-median-from-data-stream/) |
+| [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Média | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) |
+| [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Média | [Link](https://leetcode.com/problems/meeting-rooms-ii/) |

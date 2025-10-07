@@ -7,7 +7,7 @@
 * Problemas como *Skyline* ou onde é necessário manter uma **ordem estritamente crescente ou decrescente**.
 * Conversão entre notações de expressões.
 
-## Problema de Exemplo: Daily Temperatures
+## Problema de Exemplo: [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
 O objetivo é retornar quantos dias você deve esperar após um dia para que a temperatura seja mais alta.
 
@@ -53,3 +53,15 @@ def dailyTemperatures(T):
     * Retira (`pop`) esse índice resolvido (`idx`) do *stack* e calcula o resultado: `res[idx] = i - idx`.
 4.  Após resolver todos os elementos mais pequenos, o índice atual (`i`) é adicionado ao *stack* para manter a ordem decrescente.
 5.  Os elementos que permanecem no *stack* no final nunca encontram uma temperatura maior, pelo que o seu resultado permanece `0`.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Fácil | [Link](https://leetcode.com/problems/valid-parentheses/) |
+| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Fácil | [Link](https://leetcode.com/problems/next-greater-element-i/) |
+| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | Média | [Link](https://leetcode.com/problems/next-greater-element-ii/) |
+| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Difícil | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
+| [Min Stack](https://leetcode.com/problems/min-stack/) | Fácil | [Link](https://leetcode.com/problems/min-stack/) |

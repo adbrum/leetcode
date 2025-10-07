@@ -6,7 +6,7 @@
 * Sistemas de **autocomplete** e sugestões de palavras.
 * Construção de dicionários de palavras e problemas como *Word Search II* otimizado.
 
-## Problema de Exemplo: Implement Trie
+## Problema de Exemplo: [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 Implementar as três operações principais de uma Trie:
 
@@ -74,3 +74,15 @@ class Trie:
     * Se chegar ao fim, retorna o *status* do *flag* **`is_word`** do nó final.
 4.  **`startsWith`:**
     * Funciona como `search`, mas se chegar ao fim do prefixo sem encontrar caracteres ausentes, retorna **`True`** (não precisa verificar o *flag* `is_word`).
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Word Search II](https://leetcode.com/problems/word-search-ii/) | Difícil | [Link](https://leetcode.com/problems/word-search-ii/) |
+| [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Média | [Link](https://leetcode.com/problems/design-add-and-search-words-data-structure/) |
+| [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | Média | [Link](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) |
+| [Replace Words](https://leetcode.com/problems/replace-words/) | Média | [Link](https://leetcode.com/problems/replace-words/) |
+| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | Difícil | [Link](https://leetcode.com/problems/palindrome-pairs/) |

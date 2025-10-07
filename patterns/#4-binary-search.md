@@ -5,7 +5,7 @@
 * Pesquisa em **arrays ordenados**.
 * Quando a resposta/solução tem uma propriedade **monotónica** (ou seja, se a resposta é verdadeira/possível para `x`, também é para todos os valores maiores/menores que `x`). Ajuda a encontrar o limite mínimo/máximo que satisfaz um *predicado* `P(x)`.
 
-## Problema de Exemplo: Find First and Last Position of Element in Sorted Array
+## Problema de Exemplo: [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 * **Entrada:** `nums = [5,7,7,8,8,10]`, `target = 8`
 * **Saída:** `[3,4]` (Índices *0-based*)
@@ -62,3 +62,15 @@ def searchRange(nums, target):
     * Quando `nums[mid] == target`, guarda o índice como potencial resposta, mas move o ponteiro direito (`r = mid - 1`) para continuar a procurar o alvo na sub-array esquerda.
 3.  **Busca para a Última Ocorrência (`findRight`):**
     * Quando `nums[mid] == target`, guarda o índice como potencial resposta, mas move o ponteiro esquerdo (`l = mid + 1`) para continuar a procurar o alvo na sub-array direita.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Média | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
+| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Média | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
+| [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Média | [Link](https://leetcode.com/problems/koko-eating-bananas/) |
+| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Média | [Link](https://leetcode.com/problems/search-a-2d-matrix/) |
+| [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Fácil | [Link](https://leetcode.com/problems/sqrtx/) |

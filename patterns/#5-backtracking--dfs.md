@@ -5,7 +5,7 @@
 * Para gerar **combinações, permutações, *subsets***.
 * Problemas de escolha/recursão que envolvem **"tentativa e recuo"** (como labirintos, problemas N-Queens ou Sudoku).
 
-## Problema de Exemplo: Subsets
+## Problema de Exemplo: [Subsets](https://leetcode.com/problems/subsets/)
 
 * **Entrada:** `nums = [1,2,3]`
 * **Saída:** `[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]`
@@ -53,3 +53,15 @@ def subsets(nums):
     * É **incluído** (`path.append`).
     * A função `backtrack` é **chamada recursivamente** para construir extensões.
     * O elemento é **removido** (`path.pop`) — o passo de **recuo** — para que a próxima iteração do *for* possa explorar um caminho diferente.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Combinations](https://leetcode.com/problems/combinations/) | Média | [Link](https://leetcode.com/problems/combinations/) |
+| [Permutations](https://leetcode.com/problems/permutations/) | Média | [Link](https://leetcode.com/problems/permutations/) |
+| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Média | [Link](https://leetcode.com/problems/combination-sum/) |
+| [N-Queens](https://leetcode.com/problems/n-queens/) | Difícil | [Link](https://leetcode.com/problems/n-queens/) |
+| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Média | [Link](https://leetcode.com/problems/generate-parentheses/) |

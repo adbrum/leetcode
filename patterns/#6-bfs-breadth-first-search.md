@@ -6,7 +6,7 @@
 * Encontrar os **caminhos mais curtos** em grafos não ponderados.
 * Travessia de Árvores por Níveis (*Level Order Traversal*).
 
-## Problema de Exemplo: Binary Tree Level Order Traversal
+## Problema de Exemplo: [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 * **Entrada (Árvore):** `[3,9,20,null,null,15,7]` (Representação em array)
 * **Saída:** `[[3],[9,20],[15,7]]`
@@ -58,3 +58,15 @@ def levelOrder(root):
 4.  Dentro do *loop* principal, usa `for _ in range(len(q))` para garantir que apenas os nós do **nível atual** sejam processados nesta iteração.
 5.  A cada nó processado, adiciona os seus filhos à fila para serem processados no **próximo nível**.
 6.  O resultado de cada nível é armazenado na lista `res`.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Média | [Link](https://leetcode.com/problems/rotting-oranges/) |
+| [Word Ladder](https://leetcode.com/problems/word-ladder/) | Difícil | [Link](https://leetcode.com/problems/word-ladder/) |
+| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Média | [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
+| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | Fácil | [Link](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Média | [Link](https://leetcode.com/problems/number-of-islands/) |

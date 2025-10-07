@@ -8,7 +8,7 @@
 * Encontrar o **nó inicial** do ciclo.
 * Também usado para encontrar o **meio** da lista ligada.
 
-## Problema de Exemplo: Linked List Cycle II — Encontrar Início do Ciclo
+## Problema de Exemplo: [Linked List Cycle II — Encontrar Início do Ciclo](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 * **Entrada (Visual):** `head` de uma lista que contém ciclo (Exemplo: `3 → 2 → 0 → -4`, com o nó `-4` a apontar de volta para o nó `2`).
 * **Saída:** Nó que começa o ciclo (o nó com valor **`2`** no exemplo) — ou `None` se não houver ciclo.
@@ -58,3 +58,15 @@ def detectCycle(head):
     * Coloca um novo ponteiro (`ptr`) no **`head`** da lista.
     * Move ambos (`ptr` e `slow` - o ponteiro que estava no encontro) **1 passo de cada vez**.
     * O nó onde se cruzarem é o **nó inicial do ciclo**.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Fácil | [Link](https://leetcode.com/problems/middle-of-the-linked-list/) |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Fácil | [Link](https://leetcode.com/problems/palindrome-linked-list/) |
+| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Média | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |
+| [Reorder List](https://leetcode.com/problems/reorder-list/) | Média | [Link](https://leetcode.com/problems/reorder-list/) |
+| [Happy Number](https://leetcode.com/problems/happy-number/) | Fácil | [Link](https://leetcode.com/problems/happy-number/) |

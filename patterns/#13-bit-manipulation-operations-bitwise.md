@@ -7,7 +7,7 @@
 * Representar e manipular **estados em *bitmask*** (comum em problemas de DP de *subset*).
 * Operações matemáticas rápidas (deslocamento para multiplicação/divisão por potências de 2).
 
-## Problema de Exemplo: Single Number
+## Problema de Exemplo: [Single Number](https://leetcode.com/problems/single-number/)
 
 Encontrar o único elemento que aparece uma vez, enquanto todos os outros aparecem duas vezes.
 
@@ -41,3 +41,15 @@ def singleNumber(nums):
 2.  Inicializa-se o resultado (**`res`**) a `0`.
 3.  Percorre-se o array, aplicando XOR cumulativamente a todos os elementos (`res ^= x`).
 4.  No final, todos os pares de números duplicados anulam-se (resultam em `0`), e o único número que não tem par é o que resta no `res`.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Fácil | [Link](https://leetcode.com/problems/number-of-1-bits/) |
+| [Counting Bits](https://leetcode.com/problems/counting-bits/) | Fácil | [Link](https://leetcode.com/problems/counting-bits/) |
+| [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Fácil | [Link](https://leetcode.com/problems/reverse-bits/) |
+| [Missing Number](https://leetcode.com/problems/missing-number/) | Fácil | [Link](https://leetcode.com/problems/missing-number/) |
+| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Média | [Link](https://leetcode.com/problems/sum-of-two-integers/) |

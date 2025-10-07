@@ -7,7 +7,7 @@
 * **Detetar ciclos** em grafos não dirigidos.
 * Problemas que envolvem operações de **fusão/união** (Exemplos: redes, *account merges*).
 
-## Problema de Exemplo: Number of Connected Components in an Undirected Graph
+## Problema de Exemplo: [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 
 O objetivo é contar o número de componentes conectados num grafo.
 
@@ -78,3 +78,15 @@ def countComponents(n, edges):
 4.  **Processamento das Arestas:**
     * Para cada aresta `(a, b)`, chama-se `UNION(a, b)`.
     * Se `UNION` retornar **`True`** (ocorreu uma fusão), significa que dois componentes foram unidos, então `count` é decrementado em 1.
+
+---
+
+## 🎯 Outros Problemas Típicos
+
+| Problema | Dificuldade | Link |
+|----------|-------------|------|
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Média | [Link](https://leetcode.com/problems/number-of-islands/) |
+| [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Média | [Link](https://leetcode.com/problems/graph-valid-tree/) |
+| [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Média | [Link](https://leetcode.com/problems/redundant-connection/) |
+| [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | Média | [Link](https://leetcode.com/problems/accounts-merge/) |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Média | [Link](https://leetcode.com/problems/number-of-provinces/) |

@@ -27,6 +27,8 @@ Each pattern includes:
 | 11 | [Union-Find (DSU)](patterns/%2311-union-find--disjoint-set-dsu.md) | Connected components, cycle detection | Connected Components in Graph |
 | 12 | [Trie (Prefix Tree)](patterns/%2312-prefix-tree.md) | Prefix search, autocomplete | Implement Trie |
 | 13 | [Bit Manipulation](patterns/%2313-bit-manipulation-operations-bitwise.md) | Unique elements, subset states | Single Number |
+| 14 | [Merge Intervals](patterns/%2314-merge-intervals.md) | Overlapping intervals, scheduling | Merge Intervals |
+| 15 | [Topological Sort](patterns/%2315-topological-sort.md) | Dependency resolution, scheduling | Course Schedule |
 
 ## Guide
 

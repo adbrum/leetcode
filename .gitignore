@@ -1,3 +1,4 @@
 .gemini/
 .github/
 gha-creds-*.json
+.github
